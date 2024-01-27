@@ -14,15 +14,16 @@ The code to replicate the offline results in **Section 5. EXPERIMENTS --> 5.1. O
 |     |-----【DCL】.ipynb          # proposed DCL method AUCC results for C-BTAP when the sample ratios are from 0.11 to 0.21.
 |     |-----【Fig.2】.ipynb         # Notebook codes that generate Fig.2: mean of offline AUCC results in eleven different sample ratios.
 |-----figure
-|     |-----xxx.pdf                 # The images resulting from the code in the aforementioned 'code' directory.
-|     |-----xxx.csv                 # The intermediate results produced by the code in the 'code' directory, used for plotting.
+|     |-----sigir
+|     |     |-----xxx.pdf                 # The images result of 【Fig.2】.ipynb
+|     |     |-----xxx.csv                 # The AUCC result of different method in the code directory.
 |-----metric
 |     |-----Metric.py               # The evaluation metrics: AUCC
 |-----model
 |     |-----uplift_model.py         # The model to predict CATE
 |     |-----roi_model.py            # The model to predict ROI
 |-----model_file
-|     |-----xxx                     # Saved model files trained by various benchmark methods.       
+|     |-----xxx                     # used to save the model files trained by various benchmark methods.       
 |-----README.txt
 ```
 
