@@ -12,11 +12,11 @@ The code to replicate the offline results in **Section 5. EXPERIMENTS --> 5.1. O
 |     |-----【DRM】.ipynb          # DRM method AUCC results for C-BTAP when the sample ratios are from 0.11 to 0.21.
 |     |-----【DRP】.ipynb          # DRP method AUCC results for C-BTAP when the sample ratios are from 0.11 to 0.21.
 |     |-----【DCL】.ipynb          # proposed DCL method AUCC results for C-BTAP when the sample ratios are from 0.11 to 0.21.
-|     |-----【Fig.2】.ipynb         # Notebook codes that generate Fig.2: mean of offline AUCC results in eleven different sample ratios.
+|     |-----【Fig.2】.ipynb        # Notebook codes that generate Fig.2: mean of offline AUCC results in eleven different sample ratios.
 |-----figure
 |     |-----sigir
-|     |     |-----xxx.pdf                 # The images result of 【Fig.2】.ipynb
-|     |     |-----xxx.csv                 # The AUCC result of different method in the code directory.
+|     |     |-----xxx.pdf           # The images result of 【Fig.2】.ipynb
+|     |     |-----xxx.csv           # The AUCC result of different method in the code directory.
 |-----metric
 |     |-----Metric.py               # The evaluation metrics: AUCC
 |-----model
