@@ -1,4 +1,3 @@
-# Code will be READY soon!!
 # Only Consider Persuadables and Coupon Takers? Cost-effective Resource Allocation via Duality Causal Learner
 
 
